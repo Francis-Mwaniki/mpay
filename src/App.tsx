@@ -24,8 +24,8 @@ function App() {
   };
   return (
 
-    <>
-    <div className=' text-white bg-[#000235] sm:min-h-screen h-screen'>
+    <div className="text-white bg-[#000235] min-h-screen">
+    <div className=' '>
       <div className=" flex flex-col sm:flex-row gap-x-56 mx-auto  items-start py-6 px-3 text-white justify-center ">
         <div className=" uppercase  pt-2">
           <a className=" text-white text-lg font-extrabold">Mpay.</a>
@@ -166,7 +166,7 @@ function App() {
     
         </div>
     </div>
-    </>
+    </div>
   )
 }
 
