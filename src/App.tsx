@@ -25,7 +25,7 @@ function App() {
   return (
 
     <>
-    <div className=' text-white bg-[#000235] min-h-screen'>
+    <div className=' text-white bg-[#000235] sm:min-h-screen h-screen'>
       <div className=" flex flex-col sm:flex-row gap-x-56 mx-auto  items-start py-6 px-3 text-white justify-center ">
         <div className=" uppercase  pt-2">
           <a className=" text-white text-lg font-extrabold">Mpay.</a>
@@ -69,7 +69,7 @@ function App() {
 
       {/* hero */}
       <div className=" flex flex-col   sm:flex-row gap-x-1 gap-y-5 px-3 items-center justify-center sm:mx-auto w-full ">
-       <div className=" w-full sm:w-[30%] text-5xl flex  sm:flex-col flex-row flex-wrap font-extrabold leading-tight">
+       <div className=" w-full sm:w-[30%] text-4xl flex  sm:flex-col flex-row flex-wrap font-extrabold leading-tight">
         <span>Discover 
           -A
 </span>
